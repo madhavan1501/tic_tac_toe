@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIK TAK TOE</title>
+    <link rel="stylesheet" href="tak.css" />
+    <script type="module" src="toe.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <button class="startbtn" type="button">Start</button>
+      </div>
+      <div class="box2">
+        <div class="select_player">
+          <button type="button" class="choose_player multibtn">1 vs 1</button>
+          <button type="button" class="choose_player singlebtn">
+            play with computer
+          </button>
+        </div>
+      </div>
+      <div class="box3">
+        <div class="txt">Choose one ..</div>
+        <div id="x" class="icon">x</div>
+        <div id="o" class="icon">o</div>
+        <button type="button" class="con">continue</button>
+      </div>
+      <div class="box4">
+        <div class="playerbtn com_btn">Computer</div>
+        <div class="parent_game_box">
+          <div class="game_box">
+            <div data-z="0" class="box"></div>
+            <div data-z="1" class="box"></div>
+            <div data-z="2" class="box"></div>
+            <div data-z="3" class="box"></div>
+            <div data-z="4" class="box"></div>
+            <div data-z="5" class="box"></div>
+            <div data-z="6" class="box"></div>
+            <div data-z="7" class="box"></div>
+            <div data-z="8" class="box"></div>
+          </div>
+          <div class="line" id="line"></div>
+        </div>
+        <div class="playerbtn">Player ~ 1</div>
+      </div>
+      <div class="box5">
+        <div class="won">have you enjoyed !!</div>
+        <div class="box5_btn">
+          <button class="restart endcard" type="button">Play Again</button>
+          <button class="exit endcard" type="button">start menu</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
